@@ -14,9 +14,12 @@ body{
 nav{
     background-color: var(--dark-color);
 }
+.even{
+    font-weight: bold;
+}
 footer{
     background-color: var(--dark-color);
-    background: CR
+    
 }
 footer .social a{
     color: var(--white-color);

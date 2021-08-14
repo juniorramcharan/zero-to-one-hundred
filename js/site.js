@@ -3,7 +3,7 @@ function getValues(){
     //get values from the page
         let startValue = document.getElementById('startValue').value;
         let endValue = document.getElementById('endValue').value;
-        alert("the start value: " + startValue);
+        
 
     //call generate numbers
 
@@ -13,9 +13,9 @@ function getValues(){
 }
 //gererate numbers from start value to end value
 function generateNumbers(start, end){
-
+let numbers = [];
     for(let i=start; i<=end; i++){
-        
+        numbers.push(i);
     }
 }
 

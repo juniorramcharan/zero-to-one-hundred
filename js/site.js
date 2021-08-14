@@ -9,15 +9,17 @@ function getValues(){
         endValue = parseInt(endValue);
         
         if(Number.isInteger(startValue) && Number.isInteger(endValue)){
+             //call generate numbers
          let numbers =  generateNumbers(startValue,endValue);
+          //call display numbers
          displayNumbers(numbers);
         }else{
             alert("You must enter an integer");
         }
-            //call generate numbers
+           
 
 
-    //call display numbers
+   
 
 }
 //gererate numbers from start value to end value

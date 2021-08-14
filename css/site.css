@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Faster+One&display=swap');
+
+
 :root{
     --primary-color: #1d5888;
     --secondary-color: #ff993b;
@@ -13,6 +15,7 @@ body{
 }
 nav{
     background-color: var(--dark-color);
+    
 }
 .even{
     font-weight: bold;
